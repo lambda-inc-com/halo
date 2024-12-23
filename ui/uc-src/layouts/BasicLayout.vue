@@ -24,7 +24,6 @@ import { defineStore, storeToRefs } from "pinia";
 import { computed, onMounted, reactive, ref } from "vue";
 import { useI18n } from "vue-i18n";
 import { RouterView, useRoute, useRouter } from "vue-router";
-import IconLogo from "~icons/core/logo?width=5rem&height=2rem";
 
 const route = useRoute();
 const router = useRouter();
@@ -116,9 +115,7 @@ const disallowAccessConsole = computed(() => {
           target="_blank"
           :title="$t('core.sidebar.operations.visit_homepage.title')"
         >
-          <IconLogo
-            class="cursor-pointer select-none transition-all hover:brightness-125"
-          />
+          <h1 style="font-weight: 600; font-size: 20px">后台管理系统</h1>
         </a>
       </div>
       <div ref="navbarScroller" class="flex-1 overflow-y-hidden">
