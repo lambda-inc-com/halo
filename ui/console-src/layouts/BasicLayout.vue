@@ -230,12 +230,7 @@ onMounted(() => {
       <footer
         v-if="!route.meta.hideFooter"
         class="mt-auto p-4 text-center text-sm"
-      >
-        <span class="text-gray-600">Powered by </span>
-        <RouterLink to="/overview" class="hover:text-gray-600">
-          Halo
-        </RouterLink>
-      </footer>
+      ></footer>
     </main>
 
     <!--bottom nav bar-->

@@ -215,14 +215,7 @@ const disallowAccessConsole = computed(() => {
         v-if="!route.meta.hideFooter"
         class="mt-auto p-4 text-center text-sm"
       >
-        <span class="text-gray-600">Powered by </span>
-        <a
-          href="https://www.halo.run"
-          target="_blank"
-          class="hover:text-gray-600"
-        >
-          Halo
-        </a>
+        <span class="text-gray-600"></span>
       </footer>
     </main>
 
